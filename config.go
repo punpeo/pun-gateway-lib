@@ -11,7 +11,7 @@ type (
 		rest.RestConf
 		Upstreams []Upstream
 		//管理后台相关权限rpc服务
-		//AccessControlRpc zrpc.RpcClientConf
+		AccessControlRpc zrpc.RpcClientConf
 		//是否校验强制登录map
 		AuthCheckMapping map[string]map[string]bool `json:",optional"`
 		//是否校验功能权限map
