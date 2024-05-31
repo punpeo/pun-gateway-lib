@@ -6,14 +6,14 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github/punpeo/pun-gateway-lib/access/control/controlClient"
+	"github.com/punpeo/pun-gateway-lib/access/control/controlClient"
 	"io"
 	"net/url"
 	"sort"
 	"strconv"
 	"strings"
 
-	gateway "github/punpeo/pun-gateway-lib"
+	gateway "github.com/punpeo/pun-gateway-lib"
 
 	"context"
 	"net/http"

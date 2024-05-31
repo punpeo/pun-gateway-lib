@@ -1,8 +1,8 @@
 package plugins
 
 import (
+	gateway "github.com/punpeo/pun-gateway-lib"
 	"github.com/zeromicro/go-zero/rest"
-	gateway "github/punpeo/pun-gateway-lib"
 )
 
 // PluginEmpty 空插件，为屏蔽某一路由的插件使用

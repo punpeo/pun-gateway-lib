@@ -1,8 +1,8 @@
 package plugins
 
 import (
+	gateway "github.com/punpeo/pun-gateway-lib"
 	"github.com/zeromicro/go-zero/rest"
-	gateway "github/punpeo/pun-gateway-lib"
 	"google.golang.org/grpc/metadata"
 	"net/http"
 	"net/url"

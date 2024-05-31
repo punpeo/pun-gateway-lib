@@ -5,8 +5,8 @@ package controlClient
 
 import (
 	"context"
+	"github.com/punpeo/pun-gateway-lib/access/control/control"
 	"github.com/zeromicro/go-zero/zrpc"
-	"github/punpeo/pun-gateway-lib/access/control/control"
 	"google.golang.org/grpc"
 )
 

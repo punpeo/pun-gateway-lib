@@ -2,11 +2,11 @@ package plugins
 
 import (
 	"fmt"
+	gateway "github.com/punpeo/pun-gateway-lib"
+	"github.com/punpeo/pun-gateway-lib/plugins/uridispatch"
 	"github.com/punpeo/punpeo-lib/rest/result"
 	"github.com/zeromicro/go-zero/rest"
 	"github.com/zeromicro/go-zero/rest/httpx"
-	gateway "github/punpeo/pun-gateway-lib"
-	"github/punpeo/pun-gateway-lib/plugins/uridispatch"
 	"net/http"
 	"strings"
 )
