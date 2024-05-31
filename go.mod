@@ -1,4 +1,4 @@
-module github/punpeo/pun-gateway-lib
+module github.com/punpeo/pun-gateway-lib
 
 go 1.18
 
