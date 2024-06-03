@@ -190,7 +190,3 @@ func loadPlugins(gw *gateway.Server) {
     gw.Register(plugins.NewPluginJzAuth(gw.Config))
     gw.Register(plugins.NewPluginEmpty())
 }
-```
-
-## 文档
-+ [go-zero 网关技术方案](https://jz-tech.yuque.com/jz-tech/ehcfio/ag2zr8hfel4ex45e)
