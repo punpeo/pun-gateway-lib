@@ -3,9 +3,9 @@ package gateway
 import (
 	"context"
 	"fmt"
+	"github.com/punpeo/pun-gateway-lib/internal"
 	"github.com/punpeo/punpeo-lib/rest/result"
 	"github.com/punpeo/punpeo-lib/rest/xerr"
-	"github/punpeo/pun-gateway-lib/internal"
 	"net/http"
 	"strings"
 
