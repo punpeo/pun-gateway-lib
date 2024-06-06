@@ -162,7 +162,7 @@ func (s *Server) buildHandler(source grpcurl.DescriptorSource, resolver jsonpb.A
 
 		// 设置RPC事件处理器
 		// handler := internal.NewEventHandler(w, resolver)
-		handler := s.plugin.GetRpcHandler(w, r, resolver, origName)
+		handler := s.plugin.GetRpcHandler(w, r, resolver, origName) //采用插件处理返回格式
 
 		if err := grpcurl.InvokeRPC(r.Context(), source, cli.Conn(), rpcPath, s.prepareMetadata(r.Header, r),
 			handler, parser.Next); err != nil {

@@ -11,8 +11,9 @@ import (
 	"strings"
 )
 
-// pluginDefault 完全没设置插件的时候默认jzAuth插件
-var pluginDefault = []string{"jzAuth"}
+// pluginDefault 完全没设置插件的时候默认empty插件
+//var pluginDefault = []string{"jzAuth"}
+var pluginDefault = []string{"empty"}
 
 // Plugin 插件，可以拦截和添加中间件
 // 默认需要实现以下接口，若个别部分不需要则可返回nil
