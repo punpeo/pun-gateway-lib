@@ -11,7 +11,7 @@ import (
 	"strings"
 )
 
-// pluginDefault 完全没设置插件的时候默认empty插件
+// pluginDefault 完全没设置插件的时候默认empty空白插件
 //var pluginDefault = []string{"jzAuth"}
 var pluginDefault = []string{"empty"}
 
